@@ -1,0 +1,103 @@
+/* sintaxis */
+
+/*selector{
+    propiedad:valor
+}*/
+
+/* un selector puede una etiqueta, una clase, o un ID *
+Reset:sacar los margenes y rellenos de un archivo*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mukta:wght@200&family=Oooh+Baby&family=Poppins:wght@600&family=Quicksand:wght@300&family=Roboto:wght@100&family=Sedgwick+Ave&family=Whisper&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+html{
+    font-size: 62.5%;
+    font-size: 1em; 
+}
+/* 10px*/
+/*1em= 10px  3em=30px toma de referencia la medida del elemento *
+/*1rem=10px  3rem=30px* toma de refencia la medida de html/
+
+
+
+header{
+    background-color: rgb(126, 58, 174);
+}
+
+/* selector de clase tiene ciertos atributos: el mismo de claso lo puedo usar varias en el proyecto porque
+es reutilizable/ lo llamo con un . */
+h2{
+    color:darkblue;
+}
+
+.subtitulos{
+    color: crimson;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+/* un ID es un selector único que pisa todos los otros selectores y no se puede
+volver a repetir el nombre */
+
+#tipografia{
+    font-size: 64px;
+}
+
+footer{
+    background-color: rgb(126, 58, 174);
+    margin-bottom: 0;
+}
+
+section{
+    background-color: rgb(172, 146, 112);
+    font-size: large;
+    color:rgb(67, 18, 113)
+
+}
+
+section h1{
+    color:aliceblue;
+    background-color: blue;
+    font-family: ;
+}
+
+li{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 32px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+p{
+  
+    font-family: 'Mukta', sans-serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cursiva{
+    font-family: 'Oooh Baby', cursive;
+}
+
+.medida{
+    font-size: 1.5cm;
+}
+
+/*unidades de medidas:
+ABSOLUTAS: MEDIDAS QUE NO SE ADAPTAN: PX,CM;
+RELATIVAS: MEDIDAS QUE SI SE ADAPTAN: %, rem, em
+REM:TOMA COMO REFERENCIA LA MEDIDA DEL HTML. 1REM=16PX
+2REM:32
+EM=24PX
+2EM=48PX
