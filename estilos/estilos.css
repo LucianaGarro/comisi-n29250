@@ -13,7 +13,7 @@ Reset:sacar los margenes y rellenos de un archivo*/
     margin:0;
 }
 
-html{
+/*html{
     font-size: 62.5%;
     font-size: 1em; 
 }
@@ -29,7 +29,7 @@ header{
 
 /* selector de clase tiene ciertos atributos: el mismo de claso lo puedo usar varias en el proyecto porque
 es reutilizable/ lo llamo con un . */
-h2{
+/*h2{
     color:darkblue;
 }
 
@@ -42,7 +42,7 @@ h2{
 /* un ID es un selector único que pisa todos los otros selectores y no se puede
 volver a repetir el nombre */
 
-#tipografia{
+/*#tipografia{
     font-size: 64px;
 }
 
@@ -92,7 +92,7 @@ p{
 
 .medida{
     font-size: 1.5cm;
-}
+}*/
 
 /*unidades de medidas:
 ABSOLUTAS: MEDIDAS QUE NO SE ADAPTAN: PX,CM;
@@ -100,4 +100,71 @@ RELATIVAS: MEDIDAS QUE SI SE ADAPTAN: %, rem, em
 REM:TOMA COMO REFERENCIA LA MEDIDA DEL HTML. 1REM=16PX
 2REM:32
 EM=24PX
-2EM=48PX
+2EM=48PX*/
+
+
+body{
+    background-color: rgb(241, 230, 186);
+}
+
+header{
+    background-color: blueviolet;
+    padding: 80px 60px 40px 50px ;
+}
+
+ul {
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    color:black;
+    padding:40px;
+    margin: 80px 40px 80px 40px;
+    border:20px solid black;
+    position: sticky;
+    top:80px;
+
+
+}
+
+p{
+    color:black;
+    padding:40px;
+    margin-right: 400px;
+    margin-left: 60px;
+    margin-top: 60px;
+   
+    border:10px solid blueviolet;
+}
+.parrafoDos{
+    border-radius: 30px;
+
+}
+
+body {
+    background-color: cornsilk;
+  /*background-image: url("../img/shakira.jpg");
+  background-repeat:unset;*/
+  
+}
+
+footer{
+    padding: 80px;
+    margin-bottom: 0;
+    margin-top: 450px;
+    background-color: blueviolet;
+}
+
+
+
+/* la escritura de los valores:
+margin + 1 única unidad de medida: esa unidad de medida se aplica en todos los lados.
+margin top y bottom + unidad de medida: se aplica solo en esos lados.
+margin top: uso una unica unidad de medidad que se va a aplicar solo en el lado indicado.
+position: para ubicar o superponer un elemento. 
